@@ -297,7 +297,7 @@ function RecordPreview({
                 interactions);
 
             var umlOutputText = umlOutput.join('\r\n');
-            previewUrl = previewUrl +'?script='+encodeURIComponent(umlOutputText);
+            previewUrl = previewUrl + '?title=' + encodeURIComponent(selectedRecord.name) + '&script=' + encodeURIComponent(umlOutputText);
             console.log('previewUrl=' + previewUrl);
             return (
                 <iframe
