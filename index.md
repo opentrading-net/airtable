@@ -1,3 +1,3 @@
-# Airtable Custom Apps
+# Airtable Bases
 
-* **visualise_interaction** renders a UML sequence diagram using dotUML
+* [Enterprise Architecture](EnterpriseArchitecture.md) - a base to capture application landscape 
